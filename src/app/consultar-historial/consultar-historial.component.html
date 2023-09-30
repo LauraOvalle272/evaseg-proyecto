@@ -1,0 +1,55 @@
+<div>
+    <div class="row">
+        <div class="col-sm-3" id="column1" >
+            <img src="../../assets/images/evaseg-logo21.png" class="logo-menu">
+            <br>
+            <button type="submit" class="btn btn" (click)="GoToInicio()">
+                <i class="bi bi-house"></i> Inicio
+            </button>
+            <button type="submit" class="btn btn" id="icono" >
+                <i class="bi bi-exclamation-circle"></i> Llamado de antención
+            </button>
+            <button type="submit" class="btn btn" id="icono" (click)="GoToReportar()">
+                <i class="bi bi-flag"></i> Reportar aprendiz
+            </button>
+            <button type="submit" class="btn btn" id="icono">
+                <i class="bi bi-search"></i> Consultar historial
+            </button>
+            
+            <div class="profile">
+            <i class="bi bi-person-circle"></i> 
+            <samp class="instructor"></samp>Instructor
+            </div>
+            
+        </div>
+        <div class="col-md-9 col-sm-12" id="column2">
+            <h3 class="title-call">Consultar Historial</h3>
+            <div class="row">
+                <div class="col-sm-12" id="semicolumn">
+                    <form class="form">
+                        <div class="row">
+                                <div class="mb-3">
+                                    <label for="fichaAprendiz" class="form-label">Nombre Aprendiz</label>
+                                    <input type="text" class="form-control" id="fichaAprendiz">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="nameAprendiz" class="form-label">Nombre de aprendiz</label>
+                                    <input type="text" class="form-control" id="nameAprendiz">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="programAprendiz" class="form-label">Programa de formación</label>
+                                    <input type="text" class="form-control" id="programAprendiz">
+                                </div>
+                                
+                                <div class="col-mb-3">
+                                <div class="mb-3 text-center"> 
+                                    <button type="submit" class="btn btn-submit">Consultar</button>
+                                </div>
+                            </div>                           
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,96 @@
+/* Estilos llamado de atención */
+
+/* Silde bar */
+
+#column1{
+    background-color: rgb(240, 240, 240);
+    height: 100vh;
+    padding: 40px;
+    position: static;
+ }
+ 
+.logo-menu{
+     width: 300px;
+     align-items: center;
+}
+ 
+ /* Sidebar opciones */
+ 
+.btn{
+     width: 300px;
+     background: #6d9d6d;
+     color: white;
+     text-align:left;
+     margin-top: 20px;
+     padding-left: 30px;
+     height: 50px;
+     font-size: 22px;
+}
+ 
+.btn i {
+     margin-right: 8px; /* Ajusta la cantidad de espacio entre el icono y el texto */
+}
+ 
+ .profile {
+     display: flex;
+     align-items: flex-end;
+     height: 200px; /* Ajusta la altura del contenedor según tus necesidades */ 
+     font-size: 30px;
+ }
+   
+.instructor{
+     margin-left: 10px; /* Espacio entre el icono y el texto (ajusta según tus necesidades) */
+}
+ 
+ #column2{
+     height: 100vh;
+     padding: 50px;
+ }
+ 
+.title-report{
+     text-align: center;
+     margin-bottom: 30px;
+}
+ 
+ 
+#semicolumn{
+     background-color:  rgb(240, 240, 240);
+     padding: 40px;
+     border-radius: 20px;
+}
+ 
+ 
+ 
+/* Estilos para el formulario */
+ .form {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+   
+/* Estilos para cada fila */
+ 
+.row {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin-bottom: 10px;
+}
+
+
+.btn-submit{
+     width: 200px;
+     background: #63a154;
+     color: white;
+     margin-top: 70px;
+     text-align: center;
+}
+ 
+ 
+ /* Estilos para ocultar la barra lateral en dispositivos pequeños */
+@media (max-width: 1187px) {
+    #column1 {
+         display: none !important; /* Oculta la barra lateral por defecto en pantallas pequeñas */
+         transform: translateX(-100%); /* Desplaza la barra completamente fuera de la vista */
+    }
+}
